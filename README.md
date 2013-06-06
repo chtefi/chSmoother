@@ -1,7 +1,7 @@
 chSmoother
 ==========
 
-A custom binding in KnockoutJS to display the change a value from 0 to 100 padding by the intermediate values 10 20 etc. according to the config you give.
+A custom binding in KnockoutJS to display the change of a value from 0 to 100 for instance, by displaying by the intermediate values 10 20 etc. until 100, according to the config you give.
 
 ```html
 <div data-bind="smoother: Money, raising: 'success', lowering: 'danger'">
