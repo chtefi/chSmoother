@@ -3,11 +3,11 @@ chSmoother
 
 A custom binding in KnockoutJS to display the change a value from 0 to 100 padding by the intermediate values 10 20 etc. according to the config you give.
 
-'''html
+```html
 <div data-bind="smoother: Money, raising: 'success', lowering: 'danger'">
 	$ <span data-bind="text: SmoothValue"></span>
 </div>
-'''
+```
 
 Available options :
 - smootherSpeed (in ms): determine how much time the binding will take to do the full change. (default: 500)
